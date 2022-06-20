@@ -20,3 +20,6 @@ conda create -p venv python==3.7 -y
 pip install -r requirements.txt
 ,,,,,
 ,,,,,
+
+
+Git documentation[https://git-scm.com/docs/git]
