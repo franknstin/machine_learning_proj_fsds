@@ -10,4 +10,13 @@ Software and account Requirement.
 4. GIT cli
 5. GIT Documentation
 
-check
+creating conda environment
+,,,
+conda create -p venv python==3.7 -y
+,,,,
+
+,,,,,
+,,,,,
+pip install -r requirements.txt
+,,,,,
+,,,,,
