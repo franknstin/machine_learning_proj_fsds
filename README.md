@@ -23,3 +23,44 @@ pip install -r requirements.txt
 
 
 Git documentation[https://git-scm.com/docs/git]
+
+
+information needed from heroku to set the CI CD pipeline
+
+1. heroku email = anmhatre94@gmail.com
+2. heroku api key = fc2e4e4e-eb4f-437b-adce-e1453e9feb50
+3. heroku app name = regression-app-ml
+
+Build docker image
+''''
+docker build -t <image_name>:<tagname> .
+
+ Note: image name for docker must be lowercase
+
+
+
+ to list docker images
+
+ '''
+ docker images
+ ,,,,
+
+
+ Run docker image
+
+ ,,,
+ docker run -p 5000:5000 -e PORT=5000 9b0af0734997
+,,,,
+
+
+to check running containers in docker
+,,,
+docker ps
+,,,,
+
+
+to stop docker container
+,,,
+docker stop <container_id>
+
+ 
