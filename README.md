@@ -28,7 +28,7 @@ Git documentation[https://git-scm.com/docs/git]
 information needed from heroku to set the CI CD pipeline
 
 1. heroku email = anmhatre94@gmail.com
-2. heroku api key = fc2e4e4e-eb4f-437b-adce-e1453e9feb50
+2. heroku api key = <>
 3. heroku app name = regression-app-ml
 
 Build docker image
