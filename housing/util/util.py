@@ -5,6 +5,7 @@ import os, sys
 def read_yaml_file(file_path:str)->dict:
     """
     read as YAML file and retruns the content as a dictionary
+    file_path:str
     """
 
     try:
