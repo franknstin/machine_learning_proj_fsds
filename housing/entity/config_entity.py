@@ -18,8 +18,8 @@ DataTransformationConfig = namedtuple(
     ['add_bedroom_per_room', 'transformed_train_dir', 'transformed_test_dir', 'preprocessed_object_file_path']
     )
 
-ModelTrainingConfig = namedtuple(
-    'ModelTrainingConfig', 
+ModelTrainerConfig = namedtuple(
+    'ModelTrainerConfig', 
      ['trained_model_file_path', 'base_accuracy'] 
     )
 
@@ -33,4 +33,9 @@ ModelEvaluationConfig = namedtuple(
 ModelPusherConfig = namedtuple(
     'ModelPusherConfig',
     ['export_dir_path']
+    )
+
+TrainingPipelineConfig = namedtuple(
+    'TrainingPipelineConfig', 
+    ['artifact_dir']
     )
