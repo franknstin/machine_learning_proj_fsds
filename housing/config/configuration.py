@@ -45,12 +45,12 @@ class Configuration:
                 data_ingestion_artifact_dir,
                 data_ingestion_info[DATA_INGESTION_INGESTED_DIR_NAME_KEY]
                 )
-            ingested_train_dir =os.join.path(
+            ingested_train_dir = os.path.join(
                 ingested_data_dir,
                 data_ingestion_artifact_dir,
                 data_ingestion_info[DATA_INGESTION_TRAIN_DIR_KEY],
                 )
-            ingested_test_dir = os.join.path(
+            ingested_test_dir = os.path.join(
                 ingested_data_dir,
                 data_ingestion_artifact_dir,
                 data_ingestion_info[DATA_INGESTION_TEST_DIR_KEY],
